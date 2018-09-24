@@ -1,0 +1,2 @@
+A yoda condition a "kifejezések" megcserélése,felcserélése (pl.:if(a==4) vagy if(4==a)) erre ellenpélda a programomban lévő részlet.
+Hibaként NullPointerException-nel tér vissza.
