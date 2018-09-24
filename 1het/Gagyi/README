@@ -1,0 +1,3 @@
+A gagyi a „while (x <= t && x >= t && t != x);” feladatot dolgozza fel.
+Az x és t változót változtatva a hol lefut a program, hol végtelen ciklusba lép(x,t értéke min 128 ill -129).
+Ez köszönhető annak, hogy az Integer változó -128 - 127-ig terjed.
