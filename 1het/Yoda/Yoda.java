@@ -2,11 +2,14 @@ public class Yoda {
 
  
     public static void main(String[] args) {
-        String myString = null;
-            if (myString.equals("foobar"))  // Erre kidobja a NullPointerException-t, viszont forditható
-           		{}
-            //if(!"foobar".equals(myString))	 // Ez igaz lesz
-            //{System.out.print("jo!");}
+        int number = 2;
+            if (2 == number)  // Itt látható a Yoda feltétel
+           		{
+             // 3 = number; // erre kiirja a java.lang.NullPointerException
+               number = 3; // Ezzel müködik
+            }
+          	/* A yoda condition-t azért célszerű alkalmazni mert könnyen különbséget lehet tenni az értékadás és a feltétel
+           vizsgálat között. Így el lehet kerülni az ebből fakadó hibákat.*/
 
                        
     }
