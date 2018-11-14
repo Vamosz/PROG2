@@ -16,7 +16,7 @@ public class LZWBinFa {
         fa.ujNullasGyermek(uj);
 
         fa = gyoker;
-      } else k
+      } else 
       {
         fa = fa.nullasGyermek();
       }
