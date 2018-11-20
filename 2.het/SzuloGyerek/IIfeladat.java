@@ -5,4 +5,11 @@ public class IIfeladat {
             szulo.viselkedes();
     }
     
+public static class Gyerek extends Szulo{
+     void viselkedes(){
+        System.out.print("nyavaja");
+    }
+}
+public static class Szulo extends IIfeladat{
+   }
 }
