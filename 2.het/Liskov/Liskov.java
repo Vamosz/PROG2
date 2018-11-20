@@ -6,12 +6,7 @@ public class Liskov{
     Kor circle = new Kor(); // Illetve egy kört 
       
         
-    ellipse.tengely(); //Ezzel a paranccsal a tengelyeket 
-                    //10 egysegre illetve 20-ra modositjuk
-                    // amiből következik hogy ez az alakzat nem lehet kör, mégis elfogadja a program
-                    // Sértve ezzel a Liskov elvet
-
-     
+    ellipse.tengely(); 
     }
     
     
