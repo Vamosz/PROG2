@@ -1,0 +1,16 @@
+.tree-cell{
+	-fx-background-color: #00ff00;/*zöld színt ad a editor belsejének a boxoknak*/
+	-fx-text-fill: #ff0000; /* piros szín a szövegeknek*/
+}
+.vbox{
+	-fx-background-color: #0985eb; /* kék szin a cimkék mögötti háttérnek*/
+}
+
+.label {
+	-fx-text-fill: #aa0000; /*piros szín a cimkék szövegeinek*/
+}
+
+.content {
+	-fx-background-color: #00ff00; /*Electric green*/
+}
+
